@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #b498f3;
+}
+
+.navbar >img{
+    display: flex;
+    width: 380px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navbar > img{
+        width: 280px;
+    }
+    .navbar{
+        height: 100px;
+    }
+}
+
+
+
+@media screen and (max-width: 820px) {
+    .navbar > img{
+        width: 360px;
+    }
+    .navbar{
+        height: 140px;
+    }
+}
+
+
+
+@media screen and (max-width: 912px) {
+    .navbar > img{
+        width: 370px;
+    }
+    .navbar{
+        height: 145px;
+    }
+}
